@@ -1,0 +1,60 @@
+name: uvirtual
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-288.0.dev <4.0.0'
+
+dependencies:
+  http: ^0.13.6
+  adaptive_theme: ^3.2.0
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.2
+  dynamic_themes: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_map: ^3.1.0
+  flutter_native_splash: ^2.2.19
+  google_nav_bar: ^5.0.6
+  material_design_icons_flutter: ^6.0.7096
+  page_transition: ^2.0.9
+  provider: ^6.0.5
+  get: ^4.6.5
+  shared_preferences: ^2.1.1
+  flutter_secure_storage: ^8.0.0
+  image_picker: ^0.8.7+5
+  path: ^1.8.3
+  permission_handler: ^10.2.0
+  sizer: ^2.0.15
+  camera: ^0.10.5+2
+  qr_flutter: ^4.1.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: "assets/images/ic_app.png"
+  android: true
+  ios: true
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: "assets/images/ic_app.png"
+  adaptive_icon_background: "assets/images/ic_app.png"
+  min_sdk_android: 21
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/backgroundProfile.jpg
+    - assets/images/profile-icon.jpg
